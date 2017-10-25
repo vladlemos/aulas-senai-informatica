@@ -25,18 +25,35 @@
 			background-repeat: no-repeat;
 			background-size: 100% 100%; /*largura e altura*/
 		}
+		main{
+			max-height: 100%;
+		}
 		.logo{
 			margin: 0 auto;
 			max-width: 200px; /* diz que a caixa figura terá no maximo o comprimento de 200px*/
+			max-height: 200px;
+			margin-top: 3%; 
 		}
 		.logo img{
-			margin-top: 73%;
 			width: 100%; /*dis que a img tem o comprimento 100% do pai*/
 		}
+/*		#logo1{
+			display: block;
+			width: 200px;
+			height: 200px;
+			margin-right: -1px;
+		}
+		#logo2{
+			display: block; 
+			width:40%;
+			margin-right: -1px;
+		}
+*/
 		.titulo-principal{
 			text-align: center;
 			color: white;
 			font-family: sans-serif;
+			margin-top: 1rem;
 		}
 		.titulo-principal p{
 			display: inline;
@@ -44,8 +61,8 @@
 		.titulo-principal__p2{
 			margin-left: -8px;
 			font-weight: bold;
-		}	
-		/*.acesso button {
+		}		
+		.acesso button {
 		    box-sizing: border-box;
 		    display: block;
 		    border-radius: 20px;
@@ -69,7 +86,7 @@
 		    color: red;
 		    background-color: #fff;
 		    margin-top: 1em;
-		}	*/
+		}
 	</style>
 	
 </head>
@@ -84,9 +101,9 @@
 			<p class="titulo-principal__p2">link</p>
 		</p>
 	</h1>
-	<section class="acesso-button">
-			<button class="acesso-button acesso-vazio" type="button">SIGN UP</button>
-			<button class="acesso-button acesso-cheio" type="button"><a href="componente.html">LOGIN</a></button> 
+	<section class="acesso">
+			<button class="acesso__botao1" type="button">SIGN UP</button>
+			<button class="acesso__botao2" type="button">LOGIN</button> 
 	</section>
 	</main>
 
