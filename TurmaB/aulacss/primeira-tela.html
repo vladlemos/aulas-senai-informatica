@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="componente.css"> 
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+			<title>Primeira Tela</title>
+	</head>
+
+
+		<style>
+		html, body{
+			height: 100vh;
+			width: 100vw;
+		}
+		body{
+			box-sizing: border-box;
+			padding: 1em 1em 0;
+			margin: 0;
+			padding: 0;
+			background-image: url("home1.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%; /*largura e altura*/
+		}
+		.logo{
+			margin: 0 auto;
+			max-width: 200px; /* diz que a caixa figura terá no maximo o comprimento de 200px*/
+		}
+		.logo img{
+			margin-top: 73%;
+			width: 100%; /*dis que a img tem o comprimento 100% do pai*/
+		}
+		.titulo-principal{
+			text-align: center;
+			color: white;
+			font-family: sans-serif;
+		}
+		.titulo-principal p{
+			display: inline;
+		}
+		.titulo-principal__p2{
+			margin-left: -8px;
+			font-weight: bold;
+		}	
+		/*.acesso button {
+		    box-sizing: border-box;
+		    display: block;
+		    border-radius: 20px;
+		    padding: 10px 70px;
+		    text-transform: uppercase;
+		    font-style: bold;
+		    border: none;
+		    margin-right: auto;
+		    margin-left: auto;
+		    border: 1px solid white;
+		}
+		.acesso__botao1 {
+		    color: #fff;
+		    border-color: #fff;
+		    background-color: #ff000080;
+		    margin-top: 107px;
+		}
+
+		.acesso__botao2 {
+		    border: none;
+		    color: red;
+		    background-color: #fff;
+		    margin-top: 1em;
+		}	*/
+	</style>
+	
+</head>
+<body>
+
+	<main>
+	<figure class="logo">
+		<img id="logo1" src="heart3.png">
+	</figure>
+	<h1 class="titulo-principal">
+		<p class="titulo-principal__p1">hear
+			<p class="titulo-principal__p2">link</p>
+		</p>
+	</h1>
+	<section class="acesso-button">
+			<button class="acesso-button acesso-vazio" type="button">SIGN UP</button>
+			<button class="acesso-button acesso-cheio" type="button"><a href="componente.html">LOGIN</a></button> 
+	</section>
+	</main>
+
+</body>
+</html>
+<body>
