@@ -17,6 +17,7 @@ body{
 }
 section{
 	/*argin-left: 25%;*/
+	margin-top: 5%;
 	width: 100%;
 	text-align: center;
 	box-sizing: border-box;
@@ -40,7 +41,7 @@ section hr{
 	text-align: center;
 	width: 25%;
 	margin-left:38%;
-
+	border-radius: 20px;
 }
 
 .logotipo{
@@ -50,12 +51,12 @@ section hr{
 	max-height: 100px;
 	max-width: 100px;
 	margin: 0 auto;
-	margin-top: 3%;
+	margin-top: 5%;
 	width: 100%;
 }
 
 .formulario{
-	margin-top: 10%;
+	margin-top: 15%;
 }
 
 
@@ -95,8 +96,10 @@ section hr{
 	text-decoration: none;
 	text-align: right;
 	font-style: bold;
-	color: white;
+	color: black;
+	margin-bottom:3em;  
 }
+
 
 /*
 .login-botao-cheio{
@@ -127,7 +130,6 @@ section hr{
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
-
 }
 
 .acesso-vazio{
@@ -191,12 +193,15 @@ section hr{
 
 .icones-sociais li a{
 
-min-width: 280px;
-max-width: 100%;
+min-width: 18em;
+font-size:  0.8em;
+padding-top: 1em ;
+
+
 }
 
 
 .fa{
-  margin: 0 20px;
+  margin: 0;
 }
 
