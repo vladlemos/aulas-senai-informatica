@@ -3,7 +3,9 @@
 <html lang="pt-br">
 	<head>
 			<meta charset="utf-8">
+<!--			
 			<link rel="stylesheet" type="text/css" href="componente.css"> 
+-->
 			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 		
@@ -25,30 +27,18 @@
 			background-repeat: no-repeat;
 			background-size: 100% 100%; /*largura e altura*/
 		}
-		main{
-			max-height: 100%;
-		}
+		
+		/*Imagem do coração*/
 		.logo{
 			margin: 0 auto;
 			max-width: 200px; /* diz que a caixa figura terá no maximo o comprimento de 200px*/
-			max-height: 200px;
-			margin-top: 3%; 
 		}
 		.logo img{
+			margin-top: 73%;
 			width: 100%; /*dis que a img tem o comprimento 100% do pai*/
 		}
-/*		#logo1{
-			display: block;
-			width: 200px;
-			height: 200px;
-			margin-right: -1px;
-		}
-		#logo2{
-			display: block; 
-			width:40%;
-			margin-right: -1px;
-		}
-*/
+		
+		/*Texto heartlink*/
 		.titulo-principal{
 			text-align: center;
 			color: white;
@@ -61,7 +51,9 @@
 		.titulo-principal__p2{
 			margin-left: -8px;
 			font-weight: bold;
-		}		
+		}
+		
+		/*Botões de acesso*/
 		.acesso button {
 		    box-sizing: border-box;
 		    display: block;
@@ -77,16 +69,19 @@
 		.acesso__botao1 {
 		    color: #fff;
 		    border-color: #fff;
-		    background-color: #ff000080;
-		    margin-top: 107px;
+		    background-color: rgba(255, 0, 0, 0.53); /*use rgba quando usar transparencia para funcionar no Chrome*/
+		    margin-top: 13em; /*107px*/
 		}
-
 		.acesso__botao2 {
 		    border: none;
 		    color: red;
 		    background-color: #fff;
 		    margin-top: 1em;
 		}
+		.link{
+			text-decoration: none;
+		}
+
 	</style>
 	
 </head>
@@ -102,11 +97,17 @@
 		</p>
 	</h1>
 	<section class="acesso">
-			<button class="acesso__botao1" type="button">SIGN UP</button>
-		<button class="acesso__botao2" type="button"><a herf="https://vladlemos.github.io/codexsp/TurmaB/aulacss/componente.html">LOGIN</a></button> 
+
+	        <a href="componente.html" class="link">
+				<button class="acesso__botao1" type="button">SIGN UP</button>
+			</a>
+
+			<a href="componente.html" class="link">
+			  <button class="acesso__botao2" type="button">LOGIN</button>
+			</a>
+
 	</section>
 	</main>
 
 </body>
 </html>
-<body>
