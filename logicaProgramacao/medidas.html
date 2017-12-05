@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medidas</title>
+</head>
+<body>
+
+
+    <script>    
+    //exercicios 05 e 06
+
+        //entrada
+        var numeroCentimetros = parseFloat (prompt("digite o numero em centimetros"));
+
+        // processamento
+        resultado = numeroCentimetros * (2.5)
+
+        console.log("o novo numero é " + resultado.toFixed(2) + " em polegadas")
+
+        var numeroPolegadas = parseFloat (prompt("digite o numero em polegadas"));
+
+        novoResult = numeroPolegadas / (2.5)
+
+        console.log("o novo numero é " + novoResult.toFixed(2) + " em centimetros")
+
+
+    </script>
+
+    <script>
+    
+    //recebe numero inteiro e informe se é negativo ou positivo
+
+    numero = prompt("digite um nº inteiro");
+
+    //processamento
+
+    if (numero > 0){
+        console.log("o numero "+ numero + " é positivo")
+    } else {
+        console.log("o numero é negativo")
+    };
+
+       
+    </script>
+
+
+<script>
+    var cod = prompt("Digite um número ae")
+
+    if (cod>20){
+        alert("Sem definição");
+    } else if (cod>=10 && cod<=20){
+        alert("Centro-OEsT")
+    }else if (cod>=7 && cod<=9){
+        alert("SudesT");
+    }else if(cod==5||cod==6){
+        alert("nordeste");
+    } else if (cod==4){
+        alert("Oeste");
+    } else if (cod==3){
+        alert("Leste");
+    } else if (cod==2){
+        alert("Norte");
+    } else if (cod==1){
+        alert("Sul");
+    } else{
+        alert("pára com isso!")
+    };
+
+</script>
+
+<script>
+
+var numero = parseInt(prompt("digita um número de um a 12 ae"))
+
+if (! (numero > 0 && numero<13) ){
+    alert("coloca um número ae entre 01 e 12");
+}       else if (numero==1){alert("janeiro");}
+        else if(numero==2){alert("fevereiro");}
+        else if(numero==3){alert("março");}
+        else if(numero==4){alert("abril");}
+        else if(numero==5){alert("maio");}
+        else if(numero==6){alert("junho");}
+        else if(numero==7){alert("julho");}
+        else if(numero==8){alert("agosto");}
+        else if(numero==9){alert("setembro");}
+        else if(numero==10){alert("outubro");}
+        else if(numero==11){alert("novembro");}
+        else if(numero==12){alert("dezembro");}
+
+
+switch (numero){
+    case 1:
+    console.log("janeiro"); 
+    break;
+    case 2:
+    console.log("fevereiro"); 
+    break;
+    case 3:
+    console.log("março"); 
+    break;
+    case 4:
+    console.log("abril"); 
+    break;
+    case 5:
+    console.log("maio");
+    break;
+    case 6:
+    console.log("junho"); 
+    break;
+    case 7:
+    console.log("julho");
+    break;
+    case 8:
+    console.log("agosto"); 
+    break;
+    case 9:
+    console.log("setembro"); 
+    break;
+    case 10:
+    console.log("outubro"); 
+    break;
+    case 11:
+    console.log("novembro");
+    break;
+    case 12:console.log("dezembro"); 
+    break;
+    default: console.log ("sai dae ow"); break;
+    };
+
+</script>
+
+
+
+    
+</body>
+</html>

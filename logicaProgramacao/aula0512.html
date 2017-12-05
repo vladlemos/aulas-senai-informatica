@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    
+        var numero = 1;
+                
+        while (numero %2 == 1){
+            numero = parseInt(prompt("digite um numero par"));
+            
+            if (numero %2 == 0){
+            alert("numero Par " + numero );
+        }
+            }
+        alert("fim do programa")
+
+    </script>
+
+    <script>
+    
+    entradas = 1;
+    valores = 0;
+    soma =0; // se não inicializar a variavel dá ruim;
+
+    while(entradas <16){
+            valores = parseInt(prompt("digita um número ae")); // tem que colocar parseInt pq senão considera texto
+            soma = soma + valores;
+            entradas = entradas + 1;
+        }
+
+     alert(" deu " + (soma))    
+    
+    </script>
+
+
+    <script>
+    
+    // o professor fez com uma variável só;
+    
+    contador = 1;
+    valor = 0;
+    
+
+    while (contador <= 50){
+        if (valor %2 == 1){
+            document.write(valor + " - ")
+            
+        }
+        valor ++
+        contador ++
+    }
+
+    </script>
+    
+</body>
+</html>
