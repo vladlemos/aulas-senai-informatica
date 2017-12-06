@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+var carro ={
+    cor: "Azul",
+    qtdPortas: 2,
+    marca: "BMW",
+    ano: 2017,
+    andar: function(){
+        alert("VOANDOOOOOOOOOOOOO!");
+    }
+}
+console.log(carro.cor)
+carro.andar()
+
+
+var objOperacoes ={
+    resultado: null,
+    somar: function(a,b){
+        return a+b;
+    }
+}
+
+var x = 20;
+var y = 30;
+
+console.log( objOperacoes.somar(x,y));
+</script>
+
+<script>
+
+//exemplo inicializando um objeto e passando parametros;
+    var objOperacoes = {
+        resultado : null,
+        valor1 : null,
+        valor2 : null,
+        
+        somar : function(){
+            this.resultado = this.valor1 + this.valor2;
+            return  this.resultado;
+        },
+        iniciarValores : function(a, b){
+            this.valor1 = a;
+            this.valor2 = b;
+        }
+    }
+    var x = 20;
+    var y = 30;
+    objOperacoes.iniciarValores(x, y);
+    console.log( objOperacoes.somar() );
+
+ </script>
+
+
+    
+</body>
+</html>
